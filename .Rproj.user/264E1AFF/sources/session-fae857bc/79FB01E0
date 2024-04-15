@@ -3,7 +3,7 @@
     "path": "~/RProjects/UPEIMAST21/R/MAST21_2024_v2.R",
     "project_path": "R/MAST21_2024_v2.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "1493069525",
     "contents": "",
     "dirty": false,
     "created": 1713150312660.0,
@@ -13,15 +13,15 @@
         "tempName": "Untitled2",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "18,16",
-        "scrollLine": "4"
+        "cursorPosition": "18,18",
+        "scrollLine": "0"
     },
-    "folds": "",
+    "folds": "9|134|113|0|\n",
     "lastKnownWriteTime": 1713150376,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1713150376354,
+    "last_content_update": 1713153388627,
     "read_only": false,
     "read_only_alternatives": []
 }

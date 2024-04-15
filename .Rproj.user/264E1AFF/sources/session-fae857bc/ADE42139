@@ -3,7 +3,7 @@
     "path": "~/RProjects/UPEIMAST21/DESCRIPTION",
     "project_path": "DESCRIPTION",
     "type": "dcf",
-    "hash": "480601994",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1713149669414.0,
@@ -12,7 +12,7 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "17,9",
+        "cursorPosition": "15,27",
         "scrollLine": "0"
     },
     "folds": "",
