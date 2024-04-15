@@ -74,7 +74,6 @@ type_from_page <- function(page_type) {
     stringr::str_remove("_page")
 }
 
-
 check_names_same <- function(names_1, names_2) {
   length(setdiff(names_1, names_2)) == 0
 }

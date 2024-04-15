@@ -3,9 +3,9 @@
     "path": "~/RProjects/UPEIMAST21/R/utils.R",
     "project_path": "R/utils.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "1670741505",
     "contents": "",
-    "dirty": true,
+    "dirty": false,
     "created": 1713150518626.0,
     "source_on_save": false,
     "relative_order": 7,
@@ -17,11 +17,11 @@
         "scrollLine": "70"
     },
     "folds": "",
-    "lastKnownWriteTime": 1713150526,
+    "lastKnownWriteTime": 1713152309,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1713151492483,
+    "last_content_update": 1713152309474,
     "read_only": false,
     "read_only_alternatives": []
 }
