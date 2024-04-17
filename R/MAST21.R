@@ -479,7 +479,7 @@ choose_MAST21_text <- function(file, trial_type) {
 }
 
 
-get_MAST_files <- function(high_or_low) {
+get_MAST21_files <- function(high_or_low) {
   if(high_or_low == "high") {
     # file_dir <- 'MAST21-assets/MAST21_high/'
     file_dir <- 'MAST21_high/'
@@ -498,8 +498,8 @@ get_MAST_files <- function(high_or_low) {
 MAST_wav <- function(trial_type = c("normal", "daa", "doo"),
                      high_or_low = c("high", "low")) {
 
-  file_dir <- get_MAST_files(high_or_low)[[1]]
-  files_list <- get_MAST_files(high_or_low)[[2]]
+  file_dir <- get_MAST21_files(high_or_low)[[1]]
+  files_list <- get_MAST21_files(high_or_low)[[2]]
 
   res <- purrr::map(files_list, function(file) {
 
