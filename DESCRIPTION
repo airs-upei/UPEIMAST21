@@ -17,6 +17,6 @@ Imports:
     psyquest (>= 1.3.0)
 Remotes: 
     pmcharrison/psychTestR,
-    sebsilas/musicassessr,
+    sebsilas/musicassessr@api-mode,
     fmhoeger/psyquest
 RoxygenNote: 7.1.1
