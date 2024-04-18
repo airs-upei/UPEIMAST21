@@ -545,30 +545,30 @@ MAST_wav <- function(trial_type = c("normal", "daa", "doo"),
 #' @export
 #'
 #' @examples
-deploy_MAST21_wav <- function(musicassessr_aws = TRUE,
-                              app_name = "UPEI_MAST21") {
-  psychTestR::make_test(
-    psychTestR::join(
-      MAST21_wav(include_microphone_calibration_page = TRUE),
-      psychTestR::elt_save_results_to_disk(complete = FALSE),
-      psychTestR::final_page("The End.")
-    ),
-    opt = psychTestR::test_options(
-      title = "MAST .wav test",
-      admin_password = "demo",
-      additional_scripts = musicassessr::musicassessr_js(app_name = app_name,
-                                                         musicassessr_aws = musicassessr_aws)
-    )
-  )
-}
-
-
-.onLoad <- function(...) {
-  shiny::addResourcePath(
-    prefix = "MAST21-assets", # custom prefix that will be used to reference your directory
-    directoryPath = system.file("www", package = "UPEIMAST21") # path to resource in your package
-  )
-}
+# deploy_MAST21_wav <- function(musicassessr_aws = TRUE,
+#                               app_name = "UPEI_MAST21") {
+#   psychTestR::make_test(
+#     psychTestR::join(
+#       MAST21_wav(include_microphone_calibration_page = TRUE),
+#       psychTestR::elt_save_results_to_disk(complete = FALSE),
+#       psychTestR::final_page("The End.")
+#     ),
+#     opt = psychTestR::test_options(
+#       title = "MAST .wav test",
+#       admin_password = "demo",
+#       additional_scripts = musicassessr::musicassessr_js(app_name = app_name,
+#                                                          musicassessr_aws = musicassessr_aws)
+#     )
+#   )
+# }
+#
+#
+# .onLoad <- function(...) {
+#   shiny::addResourcePath(
+#     prefix = "MAST21-assets", # custom prefix that will be used to reference your directory
+#     directoryPath = system.file("www", package = "UPEIMAST21") # path to resource in your package
+#   )
+# }
 
 
 get_dob_page <- function(text = "When is your date of birth?") {
