@@ -3,7 +3,7 @@
     "path": "~/RProjects/UPEIMAST21/DESCRIPTION",
     "project_path": "DESCRIPTION",
     "type": "dcf",
-    "hash": "1611740446",
+    "hash": "480601994",
     "contents": "",
     "dirty": false,
     "created": 1713149669414.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "22,0",
+        "cursorPosition": "19,25",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1713396939,
+    "lastKnownWriteTime": 1713422933,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1713396939524,
+    "last_content_update": 1713422933624,
     "read_only": false,
     "read_only_alternatives": []
 }
